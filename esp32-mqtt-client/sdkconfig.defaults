@@ -1,0 +1,7 @@
+CONFIG_MQTT_WIFI_SSID="YourWiFiSSID"
+CONFIG_MQTT_WIFI_PASSWORD="YourWiFiPassword"
+CONFIG_MQTT_BROKER_URI="mqtt://broker.hivemq.com"
+CONFIG_MQTT_CLIENT_ID="smowcode-esp32-001"
+CONFIG_MQTT_PUB_TOPIC="smowcode/sensors/telemetry"
+CONFIG_MQTT_SUB_TOPIC="smowcode/commands/#"
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=8192
