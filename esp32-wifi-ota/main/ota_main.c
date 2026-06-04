@@ -27,9 +27,9 @@
 static const char *TAG = "ota_main";
 
 /* ── Configuration ──────────────────────────────────────────────────────────── */
-#define WIFI_SSID           CONFIG_OTA_WIFI_SSID
-#define WIFI_PASS           CONFIG_OTA_WIFI_PASSWORD
-#define OTA_FIRMWARE_URL    CONFIG_OTA_FIRMWARE_URL    /* HTTPS URL to .bin file */
+#define WIFI_SSID           "SmowCodeDemo"
+#define WIFI_PASS           "SmowCode2024"
+#define OTA_FIRMWARE_URL    "https://example.com/firmware/esp32-app.bin"   /* HTTPS URL to .bin file */
 #define CURRENT_FW_VERSION  "1.0.0"
 
 /* Embedded server certificate for HTTPS validation (set in sdkconfig) */
