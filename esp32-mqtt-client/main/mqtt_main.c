@@ -25,12 +25,12 @@
 static const char *TAG = "mqtt_main";
 
 /* ── Configuration (set via menuconfig) ────────────────────────────────────── */
-#define MQTT_BROKER_URI     CONFIG_MQTT_BROKER_URI      /* e.g. mqtt://broker.hivemq.com */
-#define MQTT_CLIENT_ID      CONFIG_MQTT_CLIENT_ID       /* e.g. smowcode-esp32-001 */
-#define MQTT_PUB_TOPIC      CONFIG_MQTT_PUB_TOPIC       /* e.g. smowcode/sensors/telemetry */
-#define MQTT_SUB_TOPIC      CONFIG_MQTT_SUB_TOPIC       /* e.g. smowcode/commands/# */
-#define WIFI_SSID           CONFIG_MQTT_WIFI_SSID
-#define WIFI_PASS           CONFIG_MQTT_WIFI_PASSWORD
+#define MQTT_BROKER_URI     "mqtt://broker.hivemq.com"
+#define MQTT_CLIENT_ID      "smowcode-esp32-001"
+#define MQTT_PUB_TOPIC      "smowcode/sensors/telemetry"
+#define MQTT_SUB_TOPIC      "smowcode/commands/#"
+#define WIFI_SSID           "SmowCodeDemo"
+#define WIFI_PASS           "SmowCode2024"
 
 static EventGroupHandle_t s_wifi_event_group;
 #define WIFI_CONNECTED_BIT  BIT0
