@@ -34,8 +34,8 @@ static const char *TAG = "bacnet_main";
 #define BACNET_DEVICE_NAME  "SmowCode-ESP32-BACnet"
 
 /* WiFi credentials — set via menuconfig or sdkconfig */
-#define WIFI_SSID   CONFIG_BACNET_WIFI_SSID
-#define WIFI_PASS   CONFIG_BACNET_WIFI_PASSWORD
+#define WIFI_SSID   "SmowCodeDemo"
+#define WIFI_PASS   "SmowCode2024"
 
 /* ─── WiFi Event Handler ──────────────────────────────────────────────────── */
 static void wifi_event_handler(void *arg, esp_event_base_t event_base,
